@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>finview</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="finview.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <header class="header-section ">
+        <div class="row ">
+            <div class="col-12 " >
+                <nav class="navbar navbar-expand-lg "style="background-color:#faf1e1">
+                    <div  class="container-fluid">
+
+                     <!-- logo div -->
+                      <div class="logo">
+                        <a class="navbar-brand" href="#">
+                        <img  src="img/logo2.png" alt="logo">
+                        </a>
+                      </div>
+
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                     <!-- menu div -->
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto  ">
+                                <div class="home">
+                                    <li class="nav-item dropdown">
+                                        <div class="d-flex align-items-center ">
+                                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                             Home
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">home one </a></li>
+                                            <li><a class="dropdown-item" href="#">home two</a></li>
+                                            </ul>
+                                            <span class="plus">
+                                                <i class="fa-thin fa-plus"></i>    
+                                            </span>
+                                        </div>
+                                    </li>
+                                </div>
+
+
+                                <div class="loanr">
+                                    <li class="nav-item dropdown">
+                                        <div class="d-flex align-items-center ">
+                                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Loan Reviews
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="#">Loan reviews</a></li>
+                                                <li><a class="dropdown-item" href="#">Loan review deatails </a></li>
+                                            </ul>
+                                            <span class="plus">
+                                              +
+                                            </span>
+                                        </div>
+                                    </li>
+                                </div>
+
+                                
+                                <div class="loanc">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#">Loan Comparision</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                  
+
+                                <div class="pages">
+                                    <li class="nav-item dropdown">
+                                        <div class="d-flex align-items-center ">
+                                         <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                             Pages
+                                         </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="#">About Us</a></li>
+                                                <li><a class="dropdown-item" href="#">Service</a></li>
+                                                <li><a class="dropdown-item" href="#">Service Details</a></li>
+                                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                                                <li><a class="dropdown-item" href="#">Blog details</a></li>
+                                                <li><a class="dropdown-item" href="#">FAQs</a></li>
+                                                <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                                                <li><a class="dropdown-item" href="#">404 Error Page</a></li>
+                                            </ul>
+                                            <span>
+                                             +
+                                            </span>
+                                        </div>
+                                    </li>
+                                </div>
+
+
+                                <div class="contact">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            
+                            </ul>
+                        </div>
+
+
+
+                        <div class="right">
+                            <div class="glass">
+                            <button class="search">
+                                <i class="fa-solid fa-magnifying-glass searchicon" 
+                                style="color: #096d27;"></i>                           
+                             </button>
+                            </div>
+
+                            <div class="signbtn">
+                            <button class="btn btn-outline-success" type="submit">Sign Up &nbsp; <i class="fa-solid fa-arrow-up-from-bracket"></i></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" style="background-color: #faf1e1 ;">
+        <div class="hero-section">
+            <img class="dollar" src="img/hero_vector_dollar.png" alt="dollar-img">
+            <img class="message"  src="img/hero_vector_message.png" alt="message-img">
+            <img class="dollar2" src="img/hero_vector_dollar.png" alt="dollar-img">
+            <img class="setting" src="img/hero_vector_setting.png" alt="setting-img">
+            <img class="arrow"  src="img/hero_vector_arrow.png" alt="arrow-img">
+        </div>
+
+        <div class="container " >
+            <div class="row ">
+                <div class="right-content col ">
+                    <div class="ttle">
+                    
+                        <img  class="title" src="img/title_vector.png" alt="title">
+                    
+                        <p>
+                            Compare and Choose the Best Loan
+                        </p>
+
+                    </div>
+                     
+                    
+                
+                    <div class="heading">
+                        <div>  
+                            <h1 >
+                                Find the <span class="perfect"> Perfect</span> Loan<br>
+                                for Your Needs
+                            </h1>
+            
+                        </div>
+                    </div>
+
+
+                    <div class="para">
+                        <p>
+                             Welcome to Finview, your trusted resource for financial loan reviews <br>
+                            and comparisons. Our dedicated team of experts analyzes various loan
+                         </p>
+                    </div>
+
+
+
+                    <div class="rightbtns">
+                        <div class="calculate">
+                            <button class="loan-calculate">
+                                Loan-calculate   &nbsp <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </button>
+                        </div>
+
+                        <div class="about-us">
+                            <button class="about"> 
+                                 About-us  &nbsp <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </button>
+                         </div>
+                    </div>
+
+                </div>
+
+                <div class=" left-content col">
+                    <div class="img2">
+                        <img class="man" src="img/hero_img.png" alt="">
+                    </div>
+
+                    <div class="img3">
+                        <img class="three" src="img/hero_img_vector.png" alt="">
+                    </div>
+
+                    <div class="img4">
+                        <img class="grass" src="img/thumb_vector.png" alt="">
+                    </div>
+
+
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-section">
+        <img class="feature-dollar" src="img/hero_vector_dollar.png" alt="dollar-img">
+                <img class="feature-message"  src="img/hero_vector_message.png" alt="message-img">
+
+
+            <div class="feature" style="background-color: white;">
+
+                
+                <div class="feature-title">    
+                    <img  class="title" src="img/title_vector.png" alt="title">
+                    <h4>
+                        featured Services
+                    </h4>   
+                </div>
+
+                <div class="feature-head">
+                    <h1>
+                      Empowering You with Loan Knowledge and <br>
+                      Comparison Tools
+                    </h1>
+
+                 <br>
+                
+
+                    <p>
+                         We are dedicated to providing you with valuable services that simplify your loan search and empower you to make informed <br> borrowing decisions.
+                         Our comprehensive range of services
+                    </p>
+                </div>
+            
+             </div>
+
+
+             <!-- OwlCarousel2 -->
+
+             <div class="owl-carousel owl-theme">
+                <div class="item">
+
+                    <div class="citems">
+
+                        <div class="card feature-card" >
+                            <div class="card-icon">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>  
+
+                            <div class="card-title">
+                                <h3>
+                                  Loan Reviews
+                                </h3>
+                             </div>
+
+                            <div class="card-para">
+                                 <p>
+                                    provide comprehensive and unbiased reviews of various type of loans , including personal loans 
+                                </p>
+
+                             </div>
+
+                            <div class="card-button">
+                                 <button class="cd-btn">
+                                     <i class="fa-solid fa-arrow-up-from-bracket"></i>
+
+                                 </button>
+                            </div>
+
+                     
+                        </div>
+                     </div>   
+                </div>
+
+
+
+
+
+                <div class="item">
+                    <div class="citems">
+
+                        <div class="card feature-card" >
+                            <div class="card-icon">
+                                <i class="fa-solid fa-scale-unbalanced-flip"></i>               
+                             </div>
+
+                             <div class="card-title">
+                                <h3>
+                                  Loan comparisons
+                                </h3>
+                            </div>
+
+                            <div class="card-para">
+                                 <p>
+                                  Develop interactive tools or tables that allow user to comapare different loan option side by side
+                                 </p>
+
+                            </div>
+
+                            <div class="card-button">
+                                <button class="cd-btn">
+                                  <i class="fa-solid fa-arrow-up-from-bracket"></i>
+
+                                </button>
+                            </div>
+
+                         </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="item" >
+                    <div class="citems">
+
+                        <div class="card feature-card" >
+                            <div class="card-icon">
+                                 <i class="fa-solid fa-school-circle-check"></i>               
+                            </div>
+
+                            <div class="card-title">
+                                <h3>
+                                 Education Resource
+                                 </h3>
+                            </div>
+
+                            <div class="card-para">
+                                <p>
+                                 Provide information articles,guides,and resources to educate user about different types of loans
+                                </p>
+
+                            </div>
+
+                            <div class="card-button">
+                                <button class="cd-btn">
+                                 <i class="fa-solid fa-arrow-up-from-bracket"></i>
+
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="item">
+                    <div class="citems">
+
+                        <div class="card feature-card" >
+                             <div class="card-icon">
+                                  <i class="fa-solid fa-people-roof"></i>                   
+                             </div>
+
+                            <div class="card-title">
+                                <h3>
+                                 Customer support
+                                 </h3>
+                            </div>
+
+                            <div class="card-para">
+                                 <p>
+                                  Provide information articles,guides,and resources to educate user about different types of loans
+                                </p>
+
+                            </div>
+
+                            <div class="card-button">
+                                <button class="cd-btn">
+                                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            
+                
+            </div>
+
+             
+         
+    </section>
+
+    <section class="choose-us row">
+
+        <img class="choose-arrow" src="img/hero_vector_arrow.png" alt="arrow">
+        <img class="choose-glob" src="img/choose_vector_glob (1).png" alt="glob">
+
+
+
+            <div class="row col-5">
+                <div class="choose">
+
+                <img  src="img/choose_us.png" alt="">
+
+                </div>
+                
+            </div>
+            <div class="row col-7" >
+                <div class="right-content-choose">
+                    <div class="choose-title">
+                        <img class="ch-title-img"src="img/title_vector.png" alt="">
+                        <h4>
+                            Why Choose Us
+                        </h4>
+                    </div>
+    
+                    <div class="choose-head">
+                        <h1>
+                          
+                        Experience Excellence in Loan <br> Review and Comparison
+                        </h1>
+                    </div>
+
+                    <div class="choose-para">
+                        <p>
+                            Our dedicated team of experts conducts thorough research and analysis to provide you <br>
+                            with comprehensive and unbiased reviews of various loan options.
+                        </p>
+                    </div>
+
+                    <div class="list-items">
+                        <ul>
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Comprehensive and Reviews
+                            </li>
+
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Expert Guidance and Insights
+                            </li>
+
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                User-Friendly Comparison 
+                            </li>
+
+                            <li>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Trusted User Reviews
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="choose-btn">
+                        <button class="read-more">
+                            Read More &nbsp<i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </button>
+                    </div>
+
+
+                    
+                </div>
+             
+                
+            </div>
+        </section>
+
+        <section class="LR LOAN">
+
+            <div class="LR row  ">
+                <div class="LR-section col-12  mx-auto ">
+                    <div class="LR-title  " >
+                        <img class="LR-title-img"src="img/title_vector.png" alt="">
+                        <h4>
+                            Loan Reviews
+                        </h4>
+                    </div>
+                    <div class="LR-head">
+                        <h1>
+                            In-depth Analysis for Informed <br> Borrowing Decisions
+                        </h1>
+                    </div>
+
+                    <div class="LR-para">
+                        <p>
+                            Welcome to our comprehensive loan reviews section, where we provide you with detailed <br>
+                             and unbiased analyses of various loan options.
+                        </p>
+                    </div>
+
+                    <div class="d-flex flex-column gap-4 ">
+                        <div class="loan-reviews-cards">
+                            <div class="home-loans mx-auto p-2 row">
+                                <div class="l1 position-relative row gap-2 col p-5">
+                                    <div class="l1-img  w-100 ">
+                                         <img  class="logo1"src="img/loan_reviews_logo.png" alt="">   
+                                    </div>
+                                    <div class="l1-rate">
+                                        <div class="rating">
+                                          <p>
+                                               4.9
+                                         </p>
+   
+                                    
+                                        </div>
+                                        <div class="star-rating">
+                                            <i class="fa-solid fa-star" style="color: #f8da44;"></i>
+                                            <i class="fa-solid fa-star" style="color: #f8da44;"></i>
+                                            <i class="fa-solid fa-star" style="color: #f8da44;"></i>
+                                            <i class="fa-solid fa-star" style="color: #f8da44;"></i>
+                                            <i class="fa-solid fa-star-half-stroke" style="color: #f8da44;"></i>
+
+                            
+                                             <p>
+                                             average review 
+                                            </p>
+                                    
+                                    
+                                        </div>
+
+                               
+                                
+                               
+                               
+                                    </div>
+                                    
+
+
+                                </div>
+                              
+
+
+                                <div class="l2 col position-relative ">
+                                    <div class="l2-head position-relative mx-auto ">
+                                        <h3>
+                                            Home Loan Mortgages
+                                        </h3>
+
+                                        <P>
+                                            America's Largest online Mortgage lender
+                                        </P>
+
+
+                                        <div class="l2-list position-relative ">
+                                            <ul>
+                                                <li>
+                                                    <i class="fa-regular fa-circle-check"></i>
+    
+                                                    Certified pre-approval Process
+                                                </li>
+                                                <li>
+                                                    <i class="fa-regular fa-circle-check"></i>
+    
+                                                    Online Application Available 24/7
+                                                </li>
+                                                <li>
+                                                    <i class="fa-regular fa-circle-check"></i>
+    
+                                                    Find a Quote Easily
+                                                </li>
+                                                <li>
+                                                    <i class="fa-regular fa-circle-check"></i>
+    
+                                                    100% Online Refinance
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                 
+                                </div>
+
+                                <div class="l3 col row align-items-center  position-relative ">
+
+                                    <div class="bttn row gap-2">
+
+                                        <div class="l1-btn1">
+                                            <button class="visit ">
+
+                                                Visit Site &nbsp<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                            </button>
+                                        </div>
+                                            
+                                        <div class="l1-btn2 ">
+                                            <button class="read-more2">
+
+                                                Read More &nbsp<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                            </button>
+                                        </div>
+                                        
+
+                                        
+
+                                    </div>
+
+                                </div>
+                               
+
+                            </div>
+
+                            
+
+
+
+
+                        </div>
+                        <!-- //first// -->
+
+                        <div class="loan-reviews-cards">
+                            <div class="home-loans mx-auto p-2 row">
+                                <div class="l1 position-relative row gap-2 col p-5">
+                                    <div class="l1-img  w-100 ">
+                                        <img src="img/loan_reviews_logo2.png" alt="">
+                                    </div>
+                                    <div class="l1-rate">
+                                        <div class="rating">
+                                          <p>
+                                               4.9
+                                         </p>
+   
+                                    
+                                        </div>
+                                        <div class="star-rating">
+                                            <i class="fa-solid fa-star" style="color: #f8da44;"></i>
+                                            <i class="fa-solid fa-star" style="color: #f8da44;"></i>
+                                            <i class="fa-solid fa-star" style="color: #f8da44;"></i>
+                                            <i class="fa-solid fa-star" style="color: #f8da44;"></i>
+                                            <i class="fa-solid fa-star-half-stroke" style="color: #f8da44;"></i>
+
+                            
+                                             <p>
+                                             average review 
+                                            </p>
+                                    
+                                    
+                                        </div>
+
+                               
+                                
+                               
+                               
+                                    </div>
+                                    
+
+
+                                </div>
+                              
+
+
+                                <div class="l2 col position-relative ">
+                                    <div class="l2-head position-relative mx-auto ">
+                                        <h3>
+                                            Student Loan
+                                        </h3>
+
+                                        <P>
+                                            Canada Largest online mortgage lender
+                                        </P>
+
+
+                                        <div class="l2-list position-relative ">
+                                            <ul>
+                                                <li>
+                                                    <i class="fa-regular fa-circle-check"></i>
+    
+                                                    Certified pre-approval Process
+                                                </li>
+                                                <li>
+                                                    <i class="fa-regular fa-circle-check"></i>
+    
+                                                    Online Application Available 24/7
+                                                </li>
+                                                <li>
+                                                    <i class="fa-regular fa-circle-check"></i>
+    
+                                                    Find a Quote Easily
+                                                </li>
+                                                <li>
+                                                    <i class="fa-regular fa-circle-check"></i>
+    
+                                                    100% Online Refinance
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                 
+                                </div>
+
+                                <div class="l3 col row align-items-center  position-relative ">
+
+                                    <div class="bttn row gap-2">
+
+                                        <div class="l1-btn1">
+                                            <button class="visit ">
+
+                                                Visit Site &nbsp<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                            </button>
+                                        </div>
+                                            
+                                        <div class="l1-btn2 ">
+                                            <button class="read-more2">
+
+                                                Read More &nbsp<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                            </button>
+                                        </div>
+                                        
+
+                                        
+
+                                    </div>
+
+                                </div>
+                               
+
+                            </div>
+
+                            
+
+
+
+
+                        </div>
+
+                        <!-- //second// -->
+
+                        <div class="loan-reviews-cards">
+                            <div class="home-loans mx-auto p-2 row">
+                                <div class="l1 position-relative row gap-2 col p-5">
+                                    <div class="l1-img  w-100 ">
+                                        <img src="img/loan_reviews_logo3.png" alt="">
+                                    </div>
+                                    <div class="l1-rate">
+                                        <div class="rating">
+                                          <p>
+                                               4.9
+                                         </p>
+   
+                                    
+                                        </div>
+                                        <div class="star-rating">
+                                            <i class="fa-solid fa-star" style="color: #f8da44;"></i>
+                                            <i class="fa-solid fa-star" style="color: #f8da44;"></i>
+                                            <i class="fa-solid fa-star" style="color: #f8da44;"></i>
+                                            <i class="fa-solid fa-star" style="color: #f8da44;"></i>
+                                            <i class="fa-solid fa-star-half-stroke" style="color: #f8da44;"></i>
+
+                            
+                                             <p>
+                                             average review 
+                                            </p>
+                                    
+                                    
+                                        </div>
+
+                               
+                                
+                               
+                               
+                                    </div>
+                                    
+
+
+                                </div>
+                              
+
+
+                                <div class="l2 col position-relative ">
+                                    <div class="l2-head position-relative mx-auto ">
+                                        <h3>
+                                            Business Loan
+                                        </h3>
+
+                                        <P>
+                                            Japanes Largest online mortgage lender
+                                        </P>
+
+
+                                        <div class="l2-list position-relative ">
+                                            <ul>
+                                                <li>
+                                                    <i class="fa-regular fa-circle-check"></i>
+    
+                                                    Certified pre-approval Process
+                                                </li>
+                                                <li>
+                                                    <i class="fa-regular fa-circle-check"></i>
+    
+                                                    Online Application Available 24/7
+                                                </li>
+                                                <li>
+                                                    <i class="fa-regular fa-circle-check"></i>
+    
+                                                    Find a Quote Easily
+                                                </li>
+                                                <li>
+                                                    <i class="fa-regular fa-circle-check"></i>
+    
+                                                    100% Online Refinance
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                 
+                                </div>
+
+                                <div class="l3 col row align-items-center  position-relative ">
+
+                                    <div class="bttn row gap-2">
+
+                                        <div class="l1-btn1">
+                                            <button class="visit ">
+
+                                                Visit Site &nbsp<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                            </button>
+                                        </div>
+                                            
+                                        <div class="l1-btn2 ">
+                                            <button class="read-more2">
+
+                                                Read More &nbsp<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                            </button>
+                                        </div>
+                                        
+
+                                        
+
+                                    </div>
+
+                                </div>
+                               
+
+                            </div>
+
+                            
+
+
+
+
+                        </div>
+
+                        <!-- //thirsd// -->
+                        <div class="loan-reviews-cards">
+                            <div class="home-loans mx-auto p-2 row">
+                                <div class="l1 position-relative row gap-2 col p-5">
+                                    <div class="l1-img  w-100 ">
+                                        <img src="img/loan_reviews_logo4.png" alt="">
+                                      </div>
+                                    <div class="l1-rate">
+                                        <div class="rating">
+                                          <p>
+                                               4.9
+                                         </p>
+   
+                                    
+                                        </div>
+                                        <div class="star-rating">
+                                            <i class="fa-solid fa-star" style="color: #f8da44;"></i>
+                                            <i class="fa-solid fa-star" style="color: #f8da44;"></i>
+                                            <i class="fa-solid fa-star" style="color: #f8da44;"></i>
+                                            <i class="fa-solid fa-star" style="color: #f8da44;"></i>
+                                            <i class="fa-solid fa-star-half-stroke" style="color: #f8da44;"></i>
+
+                            
+                                             <p>
+                                             average review 
+                                            </p>
+                                    
+                                    
+                                        </div>
+
+                               
+                                
+                               
+                               
+                                    </div>
+                                    
+
+
+                                </div>
+                              
+
+
+                                <div class="l2 col position-relative ">
+                                    <div class="l2-head position-relative mx-auto ">
+                                        <h3>
+                                            Construstion Loans
+                                        </h3>
+
+                                        <P>
+                                            America's Largest online Mortgage lender
+                                        </P>
+
+
+                                        <div class="l2-list position-relative ">
+                                            <ul>
+                                                <li>
+                                                    <i class="fa-regular fa-circle-check"></i>
+    
+                                                    Certified pre-approval Process
+                                                </li>
+                                                <li>
+                                                    <i class="fa-regular fa-circle-check"></i>
+    
+                                                    Online Application Available 24/7
+                                                </li>
+                                                <li>
+                                                    <i class="fa-regular fa-circle-check"></i>
+    
+                                                    Find a Quote Easily
+                                                </li>
+                                                <li>
+                                                    <i class="fa-regular fa-circle-check"></i>
+    
+                                                    100% Online Refinance
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                 
+                                </div>
+
+                                <div class="l3 col row align-items-center  position-relative ">
+
+                                    <div class="bttn row gap-2">
+
+                                        <div class="l1-btn1">
+                                            <button class="visit ">
+
+                                                Visit Site &nbsp<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                            </button>
+                                        </div>
+                                            
+                                        <div class="l1-btn2 ">
+                                            <button class="read-more2">
+
+                                                Read More &nbsp<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                            </button>
+                                        </div>
+                                        
+
+                                        
+
+                                    </div>
+
+                                </div>
+                               
+
+                            </div>
+
+                            
+
+
+
+
+                        </div>
+
+                        <div class="see-all d-flex justify-content-center p-5 ">
+                            <div class="see-btn">
+                                <button class="sa-btn"> 
+                                    See All Loan  &nbsp<i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        
+        </section>
+    
+    <section class="working">
+        <div class="container justify-content-around ">
+            <div class="row justify-content-center " >
+                <div class="working-title justify-content-center ">
+                    <img class="working-title-img"src="img/title_vector.png" alt="">
+                    <h4>
+                        Our working Process
+                    </h4>
+
+                </div>
+                <div class="working-head">
+                    <h1>
+                        Simplified Steps to Find Your <br> Ideal Loan
+                    </h1>
+                </div>
+                <div class="working-para">
+                    <p>
+                        Our working process is designed to make your loan search and selection as <br>
+                         seamless as possible.
+
+                    </p>
+                </div>
+
+                <div class="working-card  ">
+                    <div class="row gap-3 ">
+
+                        <!-- <d iv class="wcard col-4"> -->
+                            <div class="wcard-items col ">
+                                <div class="card wrk mb-3" >
+                                    <div class="wcard-icon">
+                                        <div class="w-icon">
+                                            <i class="fa-solid fa-gears" style="color: #1f5125;"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="no">
+                                        <p>
+                                            01
+                                        </p>
+                                    </div>
+                                    <div class="wcard-title">
+                                        <h3>
+                                            Reach & Explore
+                                        </h3>
+                                    </div>
+
+
+                                    <div class="wcard-title">
+                                        <p>
+                                            An online quote is an estimate of the cost of a product or service provided
+                                        </p>
+                                    </div>
+
+
+                                 </div>
+                             
+                             </div>
+                            <div class="wcard-items col">
+                                <div class="card wrk mb-3" >
+                                    <div class="wcard-icon">
+                                        <div class="w-icon">
+                                            <i class="fa-solid fa-scale-unbalanced-flip " style="color: #1f5125;"></i>               
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="no">
+                                        <p>
+                                            02
+                                        </p>
+                                    </div>
+                                    <div class="wcard-title">
+                                        <h3>
+                                            Comparision Tool
+                                        </h3>
+                                    </div>
+
+
+                                    <div class="wcard-title">
+                                        <p>
+                                            Picking a product refers to the process of selecting a specific from a range                                        </p>
+                                    </div>
+
+
+                                 </div>
+                             
+                             </div>
+                            <div class="wcard-items col">
+                                <div class="card wrk mb-3" >
+                                    <div class="wcard-icon">
+                                        <div class="w-icon">
+                                            <i class="fa-solid fa-thumbs-up" style="color: #1f5125;"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="no">
+                                        <p>
+                                            03
+                                        </p>
+                                    </div>
+                                    <div class="wcard-title">
+                                        <h3>
+                                            Reviews & Feedback
+                                        </h3>
+                                    </div>
+
+
+                                    <div class="wcard-title">
+                                        <p>
+                                            Product packaging refers to the materials and design used to protect                                        </p>
+                                    </div>
+
+
+                                 </div>
+                             
+                             </div>
+                            <div class="wcard-items col">
+                                <div class="card wrk mb-3" >
+                                    <div class="wcard-icon">
+                                        <div class="w-icon">
+                                            <i class="fa-solid fa-building-lock" style="color: #1f5125;"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="no">
+                                        <p>
+                                            04
+                                        </p>
+                                    </div>
+                                    <div class="wcard-title">
+                                        <h3>
+                                            Secure Your Loan
+                                        </h3>
+                                    </div>
+
+
+                                    <div class="wcard-title">
+                                        <p>
+                                            Product transport refers to the process of moving products from one location
+                                        </p>
+                                    </div>
+
+
+                                 </div>
+                             
+                             </div>
+
+                    
+                </div>
+
+
+            </div>
+
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:true, 
+    dotsEach:true,
+
+
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
+    </script>
+</body>
+</html>
